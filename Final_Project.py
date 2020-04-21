@@ -1,3 +1,6 @@
+#notes
+#create graphs to compare serving vs daily calories and total meal vs daily calories
+
 #!/usr/bin/env python
 # coding: utf-8
 # NOTES:
@@ -59,6 +62,5 @@ for i in range(0, 100):
     recipe_url = recipe['hits'][r]['recipe']['url']
     #Print statement
     print(dish_name, "\n Calories:", dish_calories, "\n URL:", recipe_url, '\n')
-
 
 
